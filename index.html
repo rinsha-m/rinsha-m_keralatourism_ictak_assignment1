@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERALA TOURISM</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+          <img  src="./images/logo (2).png" alt="keralatourism"  width="200" height="200" id="logoimg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 40px;">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active btn btn-outline-secondary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link btn btn-outline-secondary" href="district.html">Districts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="aboutUs.html">About Us</a>
+            </li>
+          </ul>
+          <a  class="btn btn-outline-secondary" href="signUp.html" id="signuplink"> 
+              <svg xmlns="http://www.w3.org/2000/svg"  style="float: right; color:palevioletred" width="50" height="50" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+              </svg><br>
+              Sign Up
+          </a>
+        </div>
+      </div>
+  </nav>
+    <!-- /nav bar -->
+
+    <!-- carousal -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./images/1.jpg" class="d-block " width="70%" alt="..." style="max-height: 400px; margin-left: 215px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/2.jpg" class="d-block  "  width="70%" alt="..." style="max-height: 400px;margin-left: 215px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/3.jpg" class="d-block "  width="70%"alt="..." style="max-height: 400px;margin-left: 215px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/4.jpg" class="d-block "  width="70%" alt="..." style="max-height: 400px;margin-left: 215px;">
+        </div>
+      </div>
+    </div>
+    <!-- /carousal -->
+
+    <!-- login form -->
+    <div class="container col-md-4" style="float: right;background-color: #f15f7f; height: 330px; margin:25px;margin-left: 35px; margin-top: 60px; padding: 30px;  border: 1px solid darkgray; border-radius: 20px;">
+    <form style="margin-top: 50px;" onsubmit="return validate();">
+      <div class="row mb-3" style="margin: 20px;" >
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-md-8" style="margin-left: 20px;">
+          <input type="text" class="form-control" id="inputEmail" placeholder="Email" required>
+        </div>
+      </div>
+      <div class="row mb-3" style="margin: 20px;" >
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-md-8" style="margin-left: 20px;">
+          <input type="password" class="form-control" id="inputPassword3" maxlength="10" placeholder="Password" required >
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" style="margin-left:40%; background-color: #553d67; margin-bottom:15px;">Log In</button>
+      <div class="col-md-8" style="margin-left: 20px;"> New User? <a href="signup.html" style="text-decoration: none;  color:rgb(185, 215, 216);">Sign UP</a>
+      </div>
+    </form>
+    <br>
+    
+    </div>
+    <!-- /login form -->
+
+    <!-- aside -->
+    <div class="aside" >
+      <h1>Kerala</h1><br>
+      <p>Popularly known as <mark><b>"God's Own Country"</b></mark>, Kerala is one of the most sought after tourist destinations in the world. This exotic land is renowned for its rich cultural heritage, tropical climate, palm fringed beaches, misty hill stations, health resorts, wild life sanctuaries, enchanting art forms, grand festivals and, the serenity of the backwaters and the emerald blue Arabian Sea which promise an unforgettable holidaying experience to travellers. According to "National Geographic Travel", the leading travel Magazine, Kerala is one of the 50 must see destinations of a lifetime and one of the 10 paradises of the World.
+      </p>
+    </div>
+    <!-- /aside -->
+    
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

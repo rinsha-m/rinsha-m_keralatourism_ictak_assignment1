@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* home */
+.btn{
+    margin: 10px;
+    border-radius: 2px;
+}
+
+
+#logoimg{
+    margin-left: 70px;
+}
+
+#signuplink{
+    text-decoration: none;
+    
+    color:secondary;
+}
+#signuplink:hover{
+    color: rgb(240, 41, 117);
+}
+
+.aside{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    margin-right:35px;
+    margin-top: 30px;
+    padding: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aside p{
+    text-align: justify;
+    line-height: 2em;
+    font-size: 20px;
+    
+}
+
+
+/* district  */
+
+.card-img-overlay
+{
+    text-align: center;
+}
+
+
+#discont p{
+    font-size: 3em;
+    margin-top: 100px;
+    margin-left: 60px;
+    padding: 20px;
+    color: black
+
+}
+
+.card a{
+    text-decoration: none;
+    color: #1d1717;
+}
+.card img {
+    height: 300px;
+    width: 448px; 
+    overflow: hidden;
+    margin: 0px  auto;
+    padding: 0px auto;
+}
+
+/* about us */
+
+#content{
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 2em;
+    text-align: justify;
+}
+
+/* individual district */
+.hero-image 
+{
+    width: 900px;
+    height: 400px;
+    
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin-left: 115px ;
+    margin-top: 20px;
+    
+}
+
+.hero-text 
+{
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: 100px;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#distcontent{
+    position: relative;
+    height: auto;
+    width: 900px;
+    margin-top: 40px;
+    margin-left: 40px auto;
+    margin-right: 40px auto;
+    padding: 20px;
+    font-size: 2em;
+    text-align: justify;
+}
+  
+.card-body-right{
+    width: 700px;
+    height: 200px;
+    text-align:justify;
+    margin-top: 10px;
+}
+  
+.card-text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
